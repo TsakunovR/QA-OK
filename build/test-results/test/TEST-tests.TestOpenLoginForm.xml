@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.TestOpenLoginForm" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-20T15:38:06" hostname="roman-tsakunov" time="43.29">
+  <properties/>
+  <testcase name="testOpenLoginForm()" classname="tests.TestOpenLoginForm" time="43.29"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 112.0.5615.49 (bd2a7bcb881c11e8cfe3078709382934e3916914-refs/branch-heads/5615@{#936}) on port 36062
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+апр 20, 2023 6:38:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
