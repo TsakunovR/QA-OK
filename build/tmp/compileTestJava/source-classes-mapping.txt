@@ -1,6 +1,0 @@
-tests/core/BaseTest.java
- tests.core.BaseTest
-tests/pages/LoginFormPage.java
- tests.pages.LoginFormPage
-tests/TestOpenLoginForm.java
- tests.TestOpenLoginForm
