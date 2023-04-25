@@ -3,7 +3,6 @@ package tests.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
@@ -23,7 +22,7 @@ public class LoginFormPage {
         driver.findElement(loginField).sendKeys(login);
     }
 
-    public void setPassword(String login) {
-        driver.findElement(passwordField).sendKeys(login);
+    public void setPassword(String password) {
+        driver.findElement(passwordField).sendKeys(password);
     }
 }
