@@ -4,6 +4,7 @@ package tests.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElementLocated;
@@ -16,14 +17,14 @@ public class LoginFormPage {
 
     public LoginFormPage(WebDriver driver) {
         this.driver = driver;
-        new WebDriverWait(driver, 5).until(visibilityOfElementLocated(loginField));
+        new WebDriverWait(driver, 5).until(ExpectedConditions.visibilityOfElementLocated(loginField));
     }
 
     public void setLogin(String login) {
         driver.findElement(loginField).sendKeys(login);
     }
 
-    public void setPassword(String login) {
-        driver.findElement(passwordField).sendKeys(login);
+    public void setPassword(String password) {
+        driver.findElement(passwordField).sendKeys(password);
     }
 }
